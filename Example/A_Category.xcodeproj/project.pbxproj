@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B4E1A1AD2759EB6200D311B7 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A1AC2759EB6200D311B7 /* CTMediator+A.m */; };
+		B4E1A1B02759EF4000D311B7 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E1A1AF2759EF4000D311B7 /* CTMediator+B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1269126851E80FD1E4F38426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1269126851E80FD1E4F38426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		280326EB8CA5D5BA214787E8 /* Pods-A_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Category_Example.release.xcconfig"; path = "Target Support Files/Pods-A_Category_Example/Pods-A_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5777617DEFFD3DEF94412597 /* Pods-A_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Category_Example.debug.xcconfig"; path = "Target Support Files/Pods-A_Category_Example/Pods-A_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* A_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +64,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F7449D80901DBD4E6E2AA8F /* Pods_A_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		890DD175B22637F9D8FB85D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B45E0D4D6903ECB72F703704 /* A_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = A_Category.podspec; path = ../A_Category.podspec; sourceTree = "<group>"; };
+		890DD175B22637F9D8FB85D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B45E0D4D6903ECB72F703704 /* A_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = A_Category.podspec; path = ../A_Category.podspec; sourceTree = "<group>"; };
+		B4E1A1AB2759EB6200D311B7 /* CTMediator+A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
+		B4E1A1AC2759EB6200D311B7 /* CTMediator+A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
+		B4E1A1AE2759EF4000D311B7 /* CTMediator+B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
+		B4E1A1AF2759EF4000D311B7 /* CTMediator+B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
 		BB65B87D6A92E903339BBADB /* Pods_A_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17495FE00D6190AAD05BE95 /* Pods-A_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Category_Tests.debug.xcconfig"; path = "Target Support Files/Pods-A_Category_Tests/Pods-A_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E77C5C4F74B7EAFA4B18664E /* Pods-A_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Category_Tests.release.xcconfig"; path = "Target Support Files/Pods-A_Category_Tests/Pods-A_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,13 +109,16 @@
 				C17495FE00D6190AAD05BE95 /* Pods-A_Category_Tests.debug.xcconfig */,
 				E77C5C4F74B7EAFA4B18664E /* Pods-A_Category_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B4E1A1AE2759EF4000D311B7 /* CTMediator+B.h */,
+				B4E1A1AF2759EF4000D311B7 /* CTMediator+B.m */,
+				B4E1A1AB2759EB6200D311B7 /* CTMediator+A.h */,
+				B4E1A1AC2759EB6200D311B7 /* CTMediator+A.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for A_Category */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +335,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-A_Category_Example/Pods-A_Category_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/A_Category/A_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/A_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +379,8 @@
 				6003F59E195388D20070C39A /* HBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B4E1A1AD2759EB6200D311B7 /* CTMediator+A.m in Sources */,
+				B4E1A1B02759EF4000D311B7 /* CTMediator+B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
